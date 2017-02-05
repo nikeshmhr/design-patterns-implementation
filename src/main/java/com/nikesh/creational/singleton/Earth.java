@@ -1,7 +1,7 @@
 package com.nikesh.creational.singleton;
 
 /**
- * Created by nikesh on 1/22/17.
+ * @author nikesh on 1/22/17.
  */
 public class Earth {
 

@@ -14,10 +14,6 @@ public class Computer {
 
     private boolean bluetoothEnabled;
 
-    private Computer(ComputerBuilder cb) {
-
-    }
-
     private Computer() {
 
     }
@@ -26,7 +22,7 @@ public class Computer {
         return ram;
     }
 
-    public void setRam(short ram) {
+    private void setRam(short ram) {
         this.ram = ram;
     }
 
@@ -34,7 +30,7 @@ public class Computer {
         return hdd;
     }
 
-    public void setHdd(short hdd) {
+    private void setHdd(short hdd) {
         this.hdd = hdd;
     }
 
@@ -42,7 +38,7 @@ public class Computer {
         return graphicsCardEnabled;
     }
 
-    public void setGraphicsCardEnabled(boolean graphicsCardEnabled) {
+    private void setGraphicsCardEnabled(boolean graphicsCardEnabled) {
         this.graphicsCardEnabled = graphicsCardEnabled;
     }
 
@@ -50,7 +46,7 @@ public class Computer {
         return bluetoothEnabled;
     }
 
-    public void setBluetoothEnabled(boolean bluetoothEnabled) {
+    private void setBluetoothEnabled(boolean bluetoothEnabled) {
         this.bluetoothEnabled = bluetoothEnabled;
     }
 

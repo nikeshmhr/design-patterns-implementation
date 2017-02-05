@@ -12,7 +12,7 @@ public class ComputerBuilderTest {
 //        Computer computer = new ComputerBuilder().enableBluetooth(true).enableGraphics(true).setHdd((short)500).setRam((short) 8).build();
         Computer computer = new ComputerBuilder()
                 .enableBluetooth(true)
-                .enableGraphics(true)
+                .enableGraphics(false)
                 .setHdd((short) 500)
                 .setRam((short) 8)
                 .build();
